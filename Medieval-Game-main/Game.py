@@ -48,7 +48,7 @@ while continua:
         edad = int(input("Tampoco eres un niño, tienes .... "))
 
     elif personaje == 2:
-        print("Eres un principe!")
+        print("!Eres un principe!")
     elif personaje == 3:
         print
     elif personaje == 4:
