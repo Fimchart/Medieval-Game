@@ -2,7 +2,8 @@ def personajes():
     print("1. Rey")
     print("2. Principe")
     print("3. Guardia real")
-    print("4. Campesino\n")
+    print("4. Campesino")
+    print("5. Salir\n")
 
 
 def camino_edad(edad):

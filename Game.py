@@ -48,7 +48,7 @@ if personaje == 1:
     edad = int(input("Tampoco eres un niño, tienes .... "))
 
 elif personaje == 2:
-    print
+    print("¡Eres un principe!")
 elif personaje == 3:
     print
 elif personaje == 4:
