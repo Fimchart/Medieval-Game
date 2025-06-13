@@ -1,4 +1,4 @@
-from funGame import personajes
+from funGame import personajes,camino_edad,presen_Rey
 import time
 
 
@@ -16,10 +16,10 @@ personajes()
 while continua:
     try:
         personaje = int(input())
-        if 1 <= personaje <= 4:
+        if 1 <= personaje <= 5:
             break
         else:
-            print("Por favor, elige un número del 1 al 4.")
+            print("Por favor, elige un número del 1 al 5.")
     except ValueError:
         print("Solo están permitidos los numeros.")
         continue
@@ -44,8 +44,22 @@ if personaje == 1:
     time.sleep(1)
     print("Tienes certeza de que no eres un ogro.")
     time.sleep(1)
+    edad = int(input("¿Cuantos años tienes?: "))
+    camino_edad(edad)
+    print("¡Es el gran día!")
+    time.sleep(1)
+    print("¡Darás tu primer discurso como rey a tus subditos!")
+    time.sleep(1)
+    print("Es el momento, sales por el balcón en la cima de la torre central.")
+    time.sleep(1)
+    print("Hay un silencio abismal, todos están expectantes por conocer al nuevo rey.")
+    time.sleep(1)
+    print("A tí.")
+    time.sleep(1)
+    print("¿Como deberías presentarte?")
+    time.sleep(1)
+    presen_Rey()
 
-    edad = int(input("Tampoco eres un niño, tienes .... "))
 
 elif personaje == 2:
     print("¡Eres un principe!")
