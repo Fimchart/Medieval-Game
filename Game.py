@@ -1,4 +1,4 @@
-from funGame import personajes,camino_edad,presen_Rey
+from funGame import personajes,edad_Rey,presen_Rey
 import time
 
 
@@ -44,8 +44,8 @@ if personaje == 1:
     time.sleep(1)
     print("Tienes certeza de que no eres un ogro.")
     time.sleep(1)
-    edad = int(input("¿Cuantos años tienes?: "))
-    camino_edad(edad)
+    print("Ni mucho menos eres un niño, tienes 67 años.")
+    edad_Rey()
     print("¡Es el gran día!")
     time.sleep(1)
     print("¡Darás tu primer discurso como rey a tus subditos!")
