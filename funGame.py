@@ -127,7 +127,7 @@ def presen_Rey():
     print("4. Amable.")
     presen_opcion = int(input())
     if presen_opcion == 1:
-        print
+        print("")
     elif presen_opcion == 2:
         print
     elif presen_opcion == 3:
