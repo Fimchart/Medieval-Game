@@ -108,6 +108,8 @@ def presen_Rey():
             time.sleep(1)
             return
     elif presen_opcion == 2:
+        print("Hablas relajado pero con fuerza.")
+        time.sleep(1)
         print("La edad puede traer sus ventajas, y también sus desafíos.")
         time.sleep(1)
         print("Algunos prefieren pensar que los años pesan más que la voluntad.")
@@ -171,6 +173,28 @@ def presen_Rey():
             print("Nadie esta seguro de tus intenciones")
             time.sleep(1)
     elif presen_opcion == 3:
-        print
+        print("Hablas con tono duro y desafiante.")
+        print("¡Soy el nuevo rey de Nayhem!")
+        print("Y no he venido con la intención de pedirle permiso a nadie.")
+        print("He sido testigo de los males que han caido sobre este reino.")
+        print("Pero eso ha terminado.")
+        print("El caos..")
+        print("Las deslealtades..")
+        print("La desobediencia..")
+        print("¡Serán castigados sin excepción!")
+        print("No esperen justicia.")
+        print("Esperen consecuencias.")
+        print("Ningún acto quedara sin respuesta.")
+        print("Ninguna traición sera olvidada")
+        print("Desde hoy, este reino no se movera sin mi sombra sobre él.")
+        print(".................")
+        print("Tu discurso no ha dejado lugar a dudas.")
+        print("Nadie se atreve a interrumpir el silencio que has sembrado.")
+        print("Puedes...")
+        print("1. Clavar tu espada en el suelo.")
+        print("2. Retirarte en silencio.")
+        AccFinal = int(input())
+        if AccFinal == 1:
+            print()
     elif presen_opcion == 4:
         print
