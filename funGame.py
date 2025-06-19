@@ -96,15 +96,15 @@ def presen_Rey():
             time.sleep(1)
             print("Envainas tu espada, y das media vuelta.")
             time.sleep(1)
-            print("Desapareciendo tras las cortinas de tu palacio.")
-            time.sleep(1)
+            print("Desapareciendo tras las puertas del balcón.")
+            time.sleep(2)
             print("Tus palabras han dejado una marca en tu pueblo.")
             time.sleep(1)
             return
         elif AccFinal == 2:
             print("Luciendo satisfecho con lo recitado.")
             time.sleep(1)
-            print("Te das media vuelta y desapareces en tu palacio.")
+            print("Te das media vuelta y desapareces en tu castillo.")
             time.sleep(1)
             return
     elif presen_opcion == 2:
@@ -195,6 +195,18 @@ def presen_Rey():
         print("2. Retirarte en silencio.")
         AccFinal = int(input())
         if AccFinal == 1:
-            print()
+            print("Lentamente desenfundas tu espada.")
+            print("Y con fuerza la clavas frente a ti.")
+            print("El silencio se ha vuelto ensordecedor.")
+            print("Nadie mueve un musculo.")
+            print("Sin mediar otra palabra, te retiras al interior de tu castillo.")
+            print("Tu castillo.")
+        elif AccFinal == 2:
+            print("Observas en silencio a la multitud a tus pies.")
+            print("Tu mirada penetra en cada uno de tus subditos.")
+            print("Inquebrantable.")
+            print("Conforme con lo que generaste, te retiras dejando un silencio ensordecedor.")
     elif presen_opcion == 4:
-        print
+        print("Esbozas una sonrisa leve.")
+        print("Con tono suave pero determinado comienzas tu dircurso.")
+        print("")
